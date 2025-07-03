@@ -415,7 +415,7 @@ def main():
             with col2:
                 method = st.selectbox(
                     "Escolha o método de classificação:",
-                    options=["IBGE", "Análise Avançada", "Híbrido"],
+                    options=["Híbrido", "Análise Avançada", "IBGE"],
                     help="IBGE: Mais preciso para nomes brasileiros\nAnálise Avançada: Melhor para nomes internacionais\nHíbrido: Combina ambos"
                 )
             
